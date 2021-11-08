@@ -60,12 +60,12 @@ public class Generador {
         System.out.println("LinkedHashSet: ");
         System.out.println(linkedHashSet);
 
-        //TreeSet: Soy otro comentario de prueba.
+        //TreeSet:
 
         TreeSet<String> treeSet = new TreeSet<>();
         for (int i = 0; i < generadorPersonajes.numPersonajes(); i++) {
             treeSet.add(generadorPersonajes.next());
-            //Esto es un comentario de prueba.
+
         }
         generadorPersonajes.reset();
         System.out.println();
