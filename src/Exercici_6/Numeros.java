@@ -21,9 +21,11 @@ class Numeros {
         ListIterator<Integer> itera_numeros = lista_numeros.listIterator();
 
 
+        int posicion = lista_numeros.size()/2;
+
         lista_numeros.add(numeros.generaNumero());
         while (itera_numeros.hasNext()){
-            lista_numeros.add(numeros.generaNumero());
+            lista_numeros.add(posicion,numeros.generaNumero());
 
         }
         System.out.println(lista_numeros);
